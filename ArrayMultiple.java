@@ -18,15 +18,15 @@ import java.util.Scanner;
 class ArrayMultiple {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int arrNum[] = new int[n];
-        for(int i = 0; i < n; i++) {
+        int N = sc.nextInt();
+        int arrNum[] = new int[N];
+        for(int i = 0; i < N; i++) {
             arrNum[i] = sc.nextInt();
         }
 
         try {
             int k = 0;
-            for(int i = 1; i < n; i++) {
+            for(int i = 1; i < N; i++) {
                 arrNum[i] = arrNum[k] * arrNum[i];
                 k++;
             }
@@ -35,7 +35,7 @@ class ArrayMultiple {
             e.printStackTrace();
         }
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < N; i++) {
             System.out.print(arrNum[i] + " ");
         }
 
