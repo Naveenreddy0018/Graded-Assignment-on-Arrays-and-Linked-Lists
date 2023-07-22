@@ -9,9 +9,7 @@
  * }
  */
 
-/*In LeetCode I used class name which is given default as Solution. I'm changing it to SwapNodes to match file name*/
-
-class SwapNodes {
+class Solution {
     public ListNode swapPairs(ListNode head) {
         if(head == null || head.next == null) {
             return head;
