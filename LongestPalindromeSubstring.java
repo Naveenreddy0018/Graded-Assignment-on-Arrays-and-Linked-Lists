@@ -1,6 +1,5 @@
-/*In LeetCode I used class name which is given default as Solution. I'm changing it to LongestPalindromeSubstring to match file name*/
 
-class LongestPalindromeSubstring {
+class Solution {
     public String longestPalindrome(String s) {
         String m ="";
         int longest = 0;
