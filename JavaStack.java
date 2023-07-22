@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-/*In Hackerrank I used class name is given default as Solution. I'm changing it to JavaStack to match file name*/
+/*In Hackerrank I used class name which is given default as Solution. I'm changing it to JavaStack to match file name*/
 public class JavaStack {
     public boolean isBalanced(String s) {
         Stack<Character> st = new Stack<>();
