@@ -1,4 +1,4 @@
-/*In LeetCode I used class name is given default as Solution. I'm changing it to LongestPalindromeSubstring to match file name*/
+/*In LeetCode I used class name which is given default as Solution. I'm changing it to LongestPalindromeSubstring to match file name*/
 
 class LongestPalindromeSubstring {
     public String longestPalindrome(String s) {
