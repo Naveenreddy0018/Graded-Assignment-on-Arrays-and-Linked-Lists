@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+/*In Hackerrank I used class name which is given default as Solution. I'm changing it to JavaPriorityQueue to match file name*/
 public class JavaPriorityQueue {
 
     public static void main(String[] args) {
