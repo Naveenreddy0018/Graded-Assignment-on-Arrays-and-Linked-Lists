@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+/*In Hackerrank I used class name is given default as Solution. I'm changing it to JavaSubarray to match file name*/
 public class JavaSubarray {
 
     public static void main(String[] args) {
